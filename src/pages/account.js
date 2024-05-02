@@ -426,6 +426,7 @@ const Page = () => {
                         alignItems: "center",
                         justifyContent: "center",
                       }}
+                      key = {index}
                       onClick={() => handleChangePage(item.page)}
                     >
                       {item.page}
